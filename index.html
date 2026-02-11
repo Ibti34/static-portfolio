@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ibtisam | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-slate-50 text-slate-900 scroll-smooth">
+
+  <!-- HEADER -->
+  <header class="bg-[#240952] border-b sticky top-0 z-50">
+    <nav class="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
+      <h1 class="text-xl font-bold tracking-tight text-white">Ibtisam</h1>
+      <div class="flex gap-6 text-sm font-medium text-slate-200">
+        <a href="#about" class="hover:text-white">About</a>
+        <a href="#projects" class="hover:text-white">Projects</a>
+        <a href="#skills" class="hover:text-white">Skills</a>
+        <a href="#contact" class="hover:text-white">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="py-28 text-center px-6 bg-white">
+    <h2 class="text-4xl md:text-5xl font-extrabold tracking-tight text-slate-900">
+      Hi, I’m <span class="text-[#240952]">Ibtisam</span> 👋
+    </h2>
+    <p class="mt-6 text-lg text-slate-600 max-w-2xl mx-auto leading-relaxed">
+      Software Engineering student and <strong>Laravel learner</strong> focused on
+      building clean, scalable, and user-friendly web applications.
+    </p>
+  </section>
+
+  <!-- ABOUT ME -->
+  <section id="about" class="py-24 bg-slate-100">
+    <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+
+      <div>
+        <h3 class="text-3xl font-bold mb-6 text-[#240952]">About Me</h3>
+        <p class="text-slate-600 leading-relaxed mb-4">
+          I am a Software Engineering student with a strong interest in backend
+          web development. I enjoy learning how systems work behind the scenes
+          and turning ideas into functional applications.
+        </p>
+        <p class="text-slate-600 leading-relaxed">
+          My main focus is Laravel, where I practice building real-world features
+          such as authentication, CRUD operations, database relationships, and
+          validation.
+        </p>
+      </div>
+
+      <div class="bg-white p-8 rounded-2xl shadow-sm border-l-4 border-[#240952]">
+        <ul class="space-y-4 text-slate-700 font-medium">
+          <li><strong>Field:</strong> Software Engineering</li>
+          <li><strong>Focus:</strong> Backend & Laravel</li>
+          <li><strong>Technologies:</strong> PHP, MySQL, Tailwind CSS</li>
+          <li><strong>Approach:</strong> Learning by building real projects</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- WHAT I DO -->
+  <section class="py-24 bg-white">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <h3 class="text-3xl font-bold mb-14 text-[#240952]">What I Do</h3>
+
+      <div class="grid md:grid-cols-3 gap-10">
+
+        <div class="bg-slate-50 p-8 rounded-2xl shadow-sm border">
+          <h4 class="font-bold mb-3 text-[#240952]">Laravel Development</h4>
+          <p class="text-slate-600 text-sm leading-relaxed">
+            Building backend features using Laravel such as authentication,
+            CRUD systems, validation, and MVC architecture.
+          </p>
+        </div>
+
+        <div class="bg-slate-50 p-8 rounded-2xl shadow-sm border">
+          <h4 class="font-bold mb-3 text-[#240952]">Database Design</h4>
+          <p class="text-slate-600 text-sm leading-relaxed">
+            Designing relational databases using MySQL, creating migrations,
+            relationships, and efficient queries.
+          </p>
+        </div>
+
+        <div class="bg-slate-50 p-8 rounded-2xl shadow-sm border">
+          <h4 class="font-bold mb-3 text-[#240952]">UI Integration</h4>
+          <p class="text-slate-600 text-sm leading-relaxed">
+            Integrating backend logic with clean and responsive user interfaces
+            using Blade and Tailwind CSS.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="py-24">
+    <div class="max-w-7xl mx-auto px-6">
+      <h3 class="text-3xl font-bold text-center mb-14 text-[#240952]">
+        Projects & Work
+      </h3>
+
+      <div class="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
+
+        <!-- STUDENT MANAGEMENT -->
+        <div class="bg-white rounded-2xl shadow-sm border hover:shadow-lg transition overflow-hidden">
+          <img src="projects/attendance.png" class="h-48 w-full object-cover" alt="Student Management System">
+          <div class="p-6">
+            <h4 class="font-bold text-lg mb-2 text-[#240952]">Student Management System</h4>
+            <p class="text-sm text-slate-600 mb-6 leading-relaxed">
+              Laravel-based system for managing students, registration,
+              attendance, and academic records.
+            </p>
+            <div class="flex gap-4 text-sm font-semibold">
+              <a href="https://github.com/Ibti34/student-management-laravel" target="_blank" class="text-slate-500 hover:text-[#240952]">GitHub</a>
+              <a href="https://student-management-laravel-production.up.railway.app" target="_blank" class="text-emerald-600 hover:text-emerald-800">Live Demo</a>
+              <a href="student-management.html" class="text-[#240952] border-b hover:border-[#240952]">Details</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- SKINCARE -->
+        <div class="bg-white rounded-2xl shadow-sm border hover:shadow-lg transition overflow-hidden">
+          <img src="projects/skincare home.png" class="h-48 w-full object-cover" alt="Skincare Project">
+          <div class="p-6">
+            <h4 class="font-bold text-lg mb-2 text-[#240952]">Skincare E-commerce</h4>
+            <p class="text-sm text-slate-600 mb-6 leading-relaxed">
+              Online shopping platform with product management and image handling.
+            </p>
+            <div class="flex gap-4 text-sm font-semibold">
+              <a href="https://github.com/Ibti34/ibtu-skincare" target="_blank" class="text-slate-500 hover:text-[#240952]">GitHub</a>
+              <a href="https://ibtu-skincare-production.up.railway.app" target="_blank" class="text-emerald-600 hover:text-emerald-800">Live Demo</a>
+              <a href="skin-care.html" class="text-[#240952] border-b hover:border-[#240952]">Details</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- BOOK TRACKER -->
+        <div class="bg-white rounded-2xl shadow-sm border hover:shadow-lg transition overflow-hidden">
+          <img src="projects/book-home.png" class="h-48 w-full object-cover" alt="Book Tracker">
+          <div class="p-6">
+            <h4 class="font-bold text-lg mb-2 text-[#240952]">Book Tracker</h4>
+            <p class="text-sm text-slate-600 mb-6 leading-relaxed">
+              Digital library application to track reading progress and collections.
+            </p>
+            <div class="flex gap-4 text-sm font-semibold">
+              <a href="https://github.com/Ibti34/book-tracker" target="_blank" class="text-slate-500 hover:text-[#240952]">GitHub</a>
+              <a href="https://book-tracker-production-3143.up.railway.app" target="_blank" class="text-emerald-600 hover:text-emerald-800">Live Demo</a>
+              <a href="book-tracker.html" class="text-[#240952] border-b hover:border-[#240952]">Details</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="py-24 bg-slate-100">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+      <h3 class="text-3xl font-bold mb-12 text-[#240952]">Technical Skills</h3>
+      <div class="flex flex-wrap justify-center gap-4 font-semibold text-slate-700">
+        <div class="bg-white px-8 py-4 rounded-xl shadow-sm">Laravel</div>
+        <div class="bg-white px-8 py-4 rounded-xl shadow-sm">PHP</div>
+        <div class="bg-white px-8 py-4 rounded-xl shadow-sm">MySQL</div>
+        <div class="bg-white px-8 py-4 rounded-xl shadow-sm">Tailwind CSS</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-24 bg-[#240952] text-white text-center px-6">
+    <h3 class="text-3xl font-bold mb-4">Contact</h3>
+
+    <div class="space-y-3 mb-10 text-slate-200">
+      <p>📧 <a href="mailto:ibti@example.com" class="underline">ibtisamkedir076@gmail.com</a></p>
+      <p>📞 <a href="tel:0905953443" class="underline">0905953443</a></p>
+    </div>
+
+    <a href="mailto:ibti@example.com"
+       class="inline-block bg-white text-[#240952] px-10 py-4 rounded-full font-bold shadow hover:bg-slate-100 transition">
+      Send Email
+    </a>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="py-10 text-center text-sm text-slate-400 border-t bg-white">
+    © 2026 Ibtisam • Portfolio
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Book Tracker Project | Ibtisam</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gradient-to-br from-slate-50 to-slate-100 text-slate-800">
+
+  <header class="sticky top-0 z-50 bg-white/80 backdrop-blur border-b">
+    <nav class="max-w-6xl mx-auto px-6 py-4">
+      <a href="index.html"
+         class="text-sm font-medium text-emerald-600 hover:text-emerald-800">
+        ← Back to Portfolio
+      </a>
+    </nav>
+  </header>
+
+  <section class="max-w-6xl mx-auto px-6 pt-16 pb-12">
+    <h1 class="text-3xl md:text-4xl font-bold text-slate-900">
+      Personal Book Tracker
+    </h1>
+    <p class="mt-3 max-w-2xl text-slate-600">
+      A comprehensive digital library manager for bibliophiles to organize reading lists, 
+      track progress, and catalog their personal collection.
+    </p>
+  </section>
+
+  <section class="max-w-6xl mx-auto px-6 grid md:grid-cols-3 gap-8 pb-16">
+    <div class="md:col-span-2 bg-white rounded-2xl p-6 shadow-sm hover:shadow-md transition">
+      <h2 class="text-lg font-semibold mb-3">Overview</h2>
+      <p class="text-slate-600 leading-relaxed">
+        The Book Tracker is designed to replace cluttered spreadsheets. Built with a focus 
+        on user experience, it allows users to categorize books by status (To-Read, Reading, Finished), 
+        rate their favorites, and keep notes on key takeaways.
+      </p>
+    </div>
+
+    <div class="bg-white rounded-2xl p-6 shadow-sm hover:shadow-md transition">
+      <h2 class="text-lg font-semibold mb-4">Key Features</h2>
+      <ul class="space-y-2 text-sm text-slate-600">
+        <li>• Library Cataloging (CRUD)</li>
+        <li>• Reading Progress Tracking</li>
+        <li>• Custom Genres & Tags</li>
+        <li>• Rating & Review System</li>
+        <li>• Search & Filter functionality</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="max-w-6xl mx-auto px-6 pb-20">
+    <h2 class="text-xl font-semibold mb-8">Screenshots (Click to enlarge)</h2>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      
+      <div class="group bg-white rounded-2xl shadow-sm hover:shadow-lg transition overflow-hidden border border-slate-100">
+        <a href="projects/Library Dashboard.png" target="_blank">
+          <img src="projects/Library Dashboard.png"
+               class="h-48 w-full object-cover group-hover:scale-105 transition duration-500"
+               alt="Library Dashboard">
+        </a>
+        <div class="p-4">
+          <p class="font-medium">Library Dashboard</p>
+          <p class="text-sm text-slate-500">Visual overview of your collection</p>
+        </div>
+      </div>
+
+      <div class="group bg-white rounded-2xl shadow-sm hover:shadow-lg transition overflow-hidden border border-slate-100">
+        <a href="projects/Book Details.png" target="_blank">
+          <img src="projects/Book Details.png"
+               class="h-48 w-full object-cover group-hover:scale-105 transition duration-500"
+               alt="Book Details">
+        </a>
+        <div class="p-4">
+          <p class="font-medium">Book Details</p>
+          <p class="text-sm text-slate-500">Manage notes, ratings, and status</p>
+        </div>
+      </div>
+
+      <div class="group bg-white rounded-2xl shadow-sm hover:shadow-lg transition overflow-hidden border border-slate-100">
+        <a href="projects/Search & Filters.png" target="_blank">
+          <img src="projects/Search & Filters.png"
+               class="h-48 w-full object-cover group-hover:scale-105 transition duration-500"
+               alt="Search & Filters">
+        </a>
+        <div class="p-4">
+          <p class="font-medium">Advanced Search</p>
+          <p class="text-sm text-slate-500">Find books by genre or author</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="max-w-6xl mx-auto px-6 grid md:grid-cols-3 gap-8 pb-16">
+    <h2 class="text-xl font-semibold">Tech Stack</h2>
+    <div class="md:col-span-2 flex flex-wrap gap-3">
+      <span class="px-4 py-2 rounded-full bg-white shadow text-sm">Laravel (PHP)</span>
+      <span class="px-4 py-2 rounded-full bg-white shadow text-sm">SQLite</span>
+      <span class="px-4 py-2 rounded-full bg-white shadow text-sm">Tailwind CSS</span>
+      <span class="px-4 py-2 rounded-full bg-white shadow text-sm">Blade Templates</span>
+    </div>
+  </section>
+
+  <section class="text-center pb-24 flex flex-col sm:flex-row justify-center items-center gap-4">
+    <a href="https://book-tracker-production-3143.up.railway.app"
+       target="_blank"
+       class="inline-flex items-center gap-2 px-8 py-3 rounded-full
+              bg-emerald-600 text-white font-semibold shadow-lg shadow-emerald-200
+              hover:bg-emerald-700 hover:-translate-y-1 transition-all duration-300">
+      <span>🚀</span> View Live Project
+    </a>
+
+    <a href="https://github.com/Ibti34/book-tracker"
+       target="_blank"
+       class="inline-flex items-center gap-2 px-8 py-3 rounded-full
+              bg-slate-800 text-white font-semibold shadow-lg shadow-slate-200
+              hover:bg-slate-900 hover:-translate-y-1 transition-all duration-300">
+      Source Code
+    </a>
+  </section>
+
+  <footer class="text-center text-sm text-slate-500 py-8 border-t bg-white">
+    © 2026 Ibtisam
+  </footer>
+
+</body>
+</html>
